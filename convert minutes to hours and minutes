@@ -1,0 +1,13 @@
+def convert_to_hours_minutes(minutes):
+    hours = minutes // 60  # Get the whole number of hours
+    remaining_minutes = minutes % 60  # Get the remaining minutes
+    return hours, remaining_minutes
+
+# Get input from the user
+total_minutes = int(input("Enter the total minutes: "))
+
+# Convert to hours and minutes
+hours, minutes = convert_to_hours_minutes(total_minutes)
+
+# Print the result
+print(f"{total_minutes} minutes is equal to {hours} hours and {minutes} minutes.")
