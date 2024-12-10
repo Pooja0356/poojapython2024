@@ -6,3 +6,8 @@ print(a*b)
 print(a/b)
 print(a%b)
 print(a**b)
+
+
+a = 5
+b = 6
+print(f"{a} is smaller than {b} {c} is a good person in the world")
